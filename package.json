@@ -12,15 +12,19 @@
   },
   "license": "MIT",
   "author": "",
-  "type": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "next": "run dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "dependencies": {
     "next": "^16.0.10",
     "node": "^24.12.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
